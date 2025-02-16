@@ -2,10 +2,10 @@
 int main(){
     int a,b,c;
     scanf("%d %d %d", &a ,&b ,&c);
-    if(a > b&c && b < a&c && c < a&b){
+    if(a >= b && a >= c){
         printf("%d" , a);
     }
-    else if(b > a&c && a < b&c && c < a&b){
+    else if(b >= a && b >= c){
         printf("%d" , b);
     }
     else{
