@@ -3,15 +3,15 @@ int main(){
     char vo;
     scanf("%c", &vo);
     switch(vo){
-        case a : printf("Vowel");
+        case 'a' : printf("Vowel");
                  break;
-        case e : printf("Vowel");
+        case 'e': printf("Vowel");
                  break;
-        case o : printf("Vowel");
+        case 'o': printf("Vowel");
                  break;
-        case u : printf("Vowel");
+        case 'u': printf("Vowel");
                  break;
-        case i : printf("Vowel");
+        case 'i': printf("Vowel");
                  break;
         default : printf("Consonant");
     }
