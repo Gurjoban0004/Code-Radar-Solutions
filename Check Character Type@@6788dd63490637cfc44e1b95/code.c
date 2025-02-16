@@ -4,15 +4,15 @@ int main(){
     scanf("%s", &vo);
     switch(vo){
         case a : printf("Vowel");
-                break;
+                 break;
         case e : printf("Vowel");
-                break;
+                 break;
         case o : printf("Vowel");
-                break;
+                 break;
         case u : printf("Vowel");
-                break;
+                 break;
         case i : printf("Vowel");
-                break;
+                 break;
         default : printf("Consonant");
     }
 
