@@ -2,11 +2,18 @@
 int main(){
     char vo;
     scanf("%s", &vo);
-    if(vo = "a" , "e" , "i" , "o", "u"){
-        printf("Vowel");
-    }
-    else{
-        printf("Consonant");
+    switch(vo){
+        case a : printf("Vowel");
+                break;
+        case e : printf("Vowel");
+                break;
+        case o : printf("Vowel");
+                break;
+        case u : printf("Vowel");
+                break;
+        case i : printf("Vowel");
+                break;
+        default : printf("Consonant");
     }
 
 
