@@ -11,12 +11,9 @@ int main(){
         printf("Digit");){
     else if(ch >= 'a' && ch <= 'z' && ch >= 'A' && ch <= 'Z' ){
         printf("Conconant");
-    }
+        }
     else{
         printf("Special Character");
-    }
-       
-    
-
-
+        }
+    return 0;
 }
