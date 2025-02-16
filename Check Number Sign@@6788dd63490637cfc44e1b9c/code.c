@@ -12,4 +12,4 @@ int main(){
         printf("Negative");
     }
     return 0;
-}..
+}
