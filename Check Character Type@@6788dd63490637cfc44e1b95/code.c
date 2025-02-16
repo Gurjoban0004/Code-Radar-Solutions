@@ -2,7 +2,7 @@
 int main(){
     char vo;
     scanf("%s", &vo);
-    if(vo == 'a' , 'e' , 'i' , 'o' , 'u'){
+    if(vo == "a" , "e" , "i" , "o", "u"){
         printf("Vowel");
     }
     else{
