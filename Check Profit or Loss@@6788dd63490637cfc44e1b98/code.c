@@ -11,8 +11,5 @@ int main(){
     else if(cost == sell){
         printf("No Profit No Loss");
     }
-    else{
-        printf("hi");
-    }
     return 0;
 }
