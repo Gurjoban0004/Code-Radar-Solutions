@@ -17,4 +17,5 @@ int main(){
     else{
         print("F");
     }
+    return 0;
 }
