@@ -5,5 +5,5 @@ int main(){
     if(num > 0 && num % num == 0){
         printf("Prime");
     }
-    else("Not Prime");
+    else{"Not Prime"};
 }
