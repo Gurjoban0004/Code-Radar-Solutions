@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int num;
-    scaf("%d" ,&num);
+    scanf("%d" ,&num);
     if(num >= 1 && num <= 100){
         printf("In Range");
     }
