@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     char vo;
-    scanf("%s", &vo);
+    scanf("%c", &vo);
     switch(vo){
         case a : printf("Vowel");
                  break;
