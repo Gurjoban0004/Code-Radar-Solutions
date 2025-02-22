@@ -2,8 +2,8 @@
 #include <math.h>
 int main(){
     int a,b;
-    scanf("%d %d", &a,&b);
-    if(a == pow(b,2)){
+    scanf("%d %d", &a , &b);
+    if(a == b * b){
         printf("Yes");
     }
     else{
