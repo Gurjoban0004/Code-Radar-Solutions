@@ -6,6 +6,6 @@ int main(){
         n >>=1;
         pos++;
     }
-    printf("%d/n", pos);
+    printf("%d", pos);
     return 0;
 }
